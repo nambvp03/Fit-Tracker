@@ -1,0 +1,100 @@
+apples
+asparagus
+avocados
+bananas
+beans
+beef
+beer
+blackberries
+blueberry
+boba
+bread
+broccoli
+brownies
+brussels sprouts
+buffalo wings
+cabbages
+cake
+carrots
+cauliflower
+celery
+cereal
+cheese
+cherries
+chicken meat
+chocolate
+coconuts
+coffee
+cookies
+corn
+crabs
+cucumbers
+dairy products
+dried fruits
+duck meat
+dumplings
+eggs
+fish meat
+flax seed
+french fries
+garlic
+ginger
+grapefruit
+grapes
+hamburgers
+honey
+hotdogs
+ice cream
+jam
+juice
+kale
+kiwi fruits
+lamb meat
+lemons
+lettuce
+lobster
+mango
+mixed nuts
+mushrooms
+noodles
+oatmeal
+onions
+oranges
+oysters
+pancakes
+papaya
+pasta
+peach
+peanut butter
+pear
+peas
+pepper
+pineapples
+pizza
+pomegranates
+popcorn
+pork
+potatoes
+pretzels
+pumpkins
+quinoa
+raspberries
+rice
+salad
+sandwiches
+sausages
+shrimp
+soda
+spinach
+strawberries
+sweet potatoes
+tea
+tofu
+tomatoes
+tortillas
+turkey meat
+waffle
+watermelon
+wine
+yogurt
+zucchini

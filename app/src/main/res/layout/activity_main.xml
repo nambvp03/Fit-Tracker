@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_small"
+    android:weightSum="10">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:paddingRight="@dimen/margin_small"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textViewStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:padding="@dimen/margin_small"
+                    android:text="Your Status"
+                    android:textColor="@color/mimoWhite" />
+
+                <TextView
+                    android:id="@+id/textViewStatusDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="@dimen/margin_huge"
+                    android:layout_weight="1"
+                    android:padding="@dimen/margin_small"
+                    android:background="@color/blueSec"
+                    android:text="Your Status Details" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textViewTodayStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:padding="@dimen/margin_small"
+                    android:text="Today's Status"
+                    android:textColor="@color/mimoWhite" />
+
+                <TextView
+                    android:id="@+id/textViewTodayStatusDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="@dimen/margin_huge"
+                    android:layout_weight="1"
+                    android:padding="@dimen/margin_small"
+                    android:background="@color/blueSec"
+                    android:text="Today's Status Details" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="Food History"
+        android:textColor="@color/mimoWhite" />
+
+    <ListView
+        android:id="@+id/listViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="@dimen/margin_small"
+        android:background="@color/blueSec"
+        android:layout_weight="10" />
+
+    <Button
+        android:id="@+id/buttonAddEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="Add Entry"
+        android:textColor="@color/mimoWhite"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
